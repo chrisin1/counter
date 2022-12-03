@@ -10,7 +10,7 @@ export default function Counter() {
   }
   return (
     <div>
-      <h2>Counter</h2>
+      <h2>Welcome to the Counter App!</h2>
       <p data-testid="count">{count}</p>
       <button onClick={increment}> + </button>
       <button onClick={decrement}> - </button>
